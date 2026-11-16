@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Text In Church is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://textinchurch.com/
+Text In Church provides a communication platform for churches, enabling two-way texting, automated workflows, digital connect cards, calling, video messaging, and integrations with tools like Planning Center and Zapier. It helps congregations engage members, automate follow‑up, and manage outreach across multiple campuses, offering free resources, support, and a blog for best practices.
+
+**Areas:** Company · Communication · Church · Messaging · Automation
+
+## Text In Church on APIs.io
+
+Everything profiled for Text In Church is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/text-in-church/](https://apis.io/providers/text-in-church/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [Text In Church Account API](https://apis.io/apis/text-in-church/text-in-church-account-api/) — Your church account, its settings, custom variables, usage counts, and plan usage.
+- [Text In Church Billing API](https://apis.io/apis/text-in-church/text-in-church-billing-api/) — Billing-related information: billing history, invoices, overages, products, and upgrade options.
+- [Text In Church Calling API](https://apis.io/apis/text-in-church/text-in-church-calling-api/) — Calling: calls, callers, caller teams, call hours, voicemail, and the digital receptionist.
+- [Text In Church Connect Cards API](https://apis.io/apis/text-in-church/text-in-church-connect-cards-api/) — Connect cards, questions, collections, and submissions.
+- [Text In Church Data Capture API](https://apis.io/apis/text-in-church/text-in-church-data-capture-api/) — Text message conversations that ask people a series of questions, such as polls and sign-ups, and save their answers.
+- [Text In Church Enum API](https://apis.io/apis/text-in-church/text-in-church-enum-api/) — Read-only lists of allowed values used by other endpoints.
+- [Text In Church Groups API](https://apis.io/apis/text-in-church/text-in-church-groups-api/) — Groups and group membership.
+- [Text In Church Integrations API](https://apis.io/apis/text-in-church/text-in-church-integrations-api/) — Integration sync logs and retries.
+- [Text In Church Messaging API](https://apis.io/apis/text-in-church/text-in-church-messaging-api/) — Text and email messages, delivery receipts, conversation history, message content, message filters, and keywords.
+- [Text In Church Pages API](https://apis.io/apis/text-in-church/text-in-church-pages-api/) — Video pages.
+- [Text In Church People API](https://apis.io/apis/text-in-church/text-in-church-people-api/) — Contacts (people), households, comments, custom fields, contact logs, external identifiers, opt-outs, tags, and people reports.
+- [Text In Church Phone Numbers API](https://apis.io/apis/text-in-church/text-in-church-phone-numbers-api/) — Phone numbers (connections) used to send and receive messages and calls.
+- [Text In Church Tasks API](https://apis.io/apis/text-in-church/text-in-church-tasks-api/) — Tasks assigned to users and their subscribers.
+- [Text In Church Tools API](https://apis.io/apis/text-in-church/text-in-church-tools-api/) — Files, media, link redirects, notifications, and categories.
+- [Text In Church Users API](https://apis.io/apis/text-in-church/text-in-church-users-api/) — Users on the account, their permissions, access modules, and incoming email assignments.
+- [Text In Church Webhooks API](https://apis.io/apis/text-in-church/text-in-church-webhooks-api/) — Webhook subscriptions, available events, and delivery logs.
+- [Text In Church Workflows API](https://apis.io/apis/text-in-church/text-in-church-workflows-api/) — Automated workflows, their steps, triggers, scheduled runs, and reports.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Text In Church Agentic Access](https://apis.io/agentic-access/text-in-church/text-in-church-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Text In Church API Rules](https://apis.io/rules/text-in-church/text-in-church-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Text In Church Authentication](https://apis.io/security/text-in-church/text-in-church-authentication/)
+- [Text In Church Domain Security](https://apis.io/security/text-in-church/text-in-church-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://textinchurch.com/)
+- [Documentation](https://textinchurch.com/support)
+- [Getting started](https://api-docs.textinchurch.com/docs/getting-started)
+- [API reference](https://api-docs.textinchurch.com/reference)
+- [Pricing](https://textinchurch.com/pricing)
+- [Blog](https://textinchurch.com/blog)
+- [Terms of service](https://textinchurch.com/terms-of-use)
+- [Privacy policy](https://textinchurch.com/privacy-policy)
+- [GitHub](https://github.com/textinchurch)
+- [Status](https://status.textinchurch.com/)
+
+## API Evangelist rating
+
+**Kin Score 48.8** — developing · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 42.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.6 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 25.5 |
+
+**Agent readiness 48.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/text-in-church/](https://apis.io/providers/text-in-church/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Text In Church: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/text-in-church/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
